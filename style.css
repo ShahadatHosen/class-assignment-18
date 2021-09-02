@@ -616,6 +616,27 @@ img{
 
 
 /* form section */
+.contacthedding{
+
+    text-align: center;
+    margin-top: 66px;
+}
+
+.contacthedding h2{
+
+    font-size: 34px;
+    padding: 20px 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.contacthedding p{
+
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px 244px;
+    font-size: 20px;
+    color: #7d7d7d;
+    line-height: 33px;
+}
 
 
 .contact-secetion{
@@ -635,12 +656,13 @@ img{
 }
 .email{
 
-    padding: 9px 6px;
-    padding-right: 289px;
+    padding: 21px 372px 18px 11px;
+    /*! padding-right: 289px; */
     border: 1px solid #b8a953;
     color: #7a7594;
     border-radius: 7px;
     margin-bottom: 6px;
+    font-size: 19px;
 }
 .email:hover{
     box-shadow: 0px 3px 20px -4px;
@@ -648,13 +670,14 @@ img{
 }
 .name{
 
-    padding: 10px;
-    padding-right: 58px;
+    padding: 21px 72px 18px 11px;
+    /*! padding-right: 58px; */
     border-radius: 7px;
     border: 1px solid #ad9d3b;
     color: #7e6b7a;
     margin: 6px;
     margin-bottom: 13px;
+    font-size: 19px;
 }
 .name:hover{
     box-shadow: 0px 3px 20px -4px;
@@ -662,10 +685,12 @@ img{
 }
 .messge{
     
-    padding: 10px;
+    padding: 11px -26px 7px 6px;
     border: 1px solid #aa972c;
     color: #757574;
     border-radius: 5px;
+    font-size: 19px;
+    color: #7a7594;
 }
 .messge:hover{
     box-shadow: 0px 3px 20px -4px;
@@ -693,4 +718,25 @@ img{
     margin-top: 73px;
     display: inline-block;
     color: #472636;
+}
+
+.contactform{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+
+
+/* fottersrction */
+
+.fottersection{
+
+    text-align: center;
+    font-size: 21px;
+    padding: 20px 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fottersection p{
+
 }
