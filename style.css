@@ -1,0 +1,696 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+p,h1,h2,h3,h4,h5,h6,a,span,{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1300px;
+   margin: auto;
+}
+
+/* hedder section */
+
+.heddersection{
+
+    background: white;
+}
+
+.heddermainmanu{
+
+    padding: 12px 25px;
+}
+
+.hedderlogo{
+
+    width: 7%;
+    float: left;
+}
+.hedderlogo img{
+
+}
+
+.heddermanu{
+
+    width: 90%;
+    float: right;
+}
+
+.heddermanu ul{
+
+    text-align: right;
+}
+
+.heddermanu ul li {
+
+    display: inline-block;
+}
+
+.heddermanu ul li a{
+
+    display: block;
+    color: black;
+    padding: 16px 23px;
+    font-size: 18px;
+}
+
+.heddermanu ul li a:hover{
+
+    cursor: pointer;
+}
+
+/* bannarsection */
+
+.bannarsection{
+
+}
+
+.bannarimgbar{
+    background-image: url(https://i.postimg.cc/MTddrpkG/kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0px;
+}
+
+.bannarcontent{
+
+    text-align: center;
+    color: white;
+}
+.bannarcontent p{
+
+    font-size: 23px;
+    padding: 20px 0px;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.bannarcontent h1{
+
+    font-size: 55px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.button a:hover{
+
+    background: #dfaf55;
+    color: white;
+
+}
+
+.button a{
+    
+    display: inline-block;
+    color: #7d7d7d;
+    background: white;
+    padding: 20px 40px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 22px;
+    transition: .4s;
+}
+
+/* appsection */
+
+.appsection{
+
+}
+
+.appmainsection{
+
+    background: ##f7f7f7;
+}
+
+.appheddingsection{
+
+    text-align: center;
+}
+
+.appheddingsection h1{
+
+    font-size: 44px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    padding: 33px 0px;
+}
+
+.appheddingsection p{
+
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.appcontentmain{
+
+    padding: 60px 0px;
+}
+
+.appheddingcontent{
+
+    transition: .4s;
+}
+
+.appheddingcontent h2{
+
+    font-size: 24px;
+    padding: 10px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.appheddingcontent h1 span{
+
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.appheddingcontent h1{
+
+    font-size: 54px;
+    padding: 15px 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.appheddingcontent h3{
+
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.appheddingcontent p{
+
+    font-size: 20px;
+    padding: 10px 100px 10px 0px;
+}
+.appheddeingpadd {
+    padding: 18px;
+}
+
+.appmaincontent{
+
+    padding: 17px;
+}
+.appconntentmain2 {
+    float: left;
+    width: 31%;
+    margin-right: 33px;
+    box-shadow: 0px 0px 12px;
+   
+}
+.appconntentmain2:last-child{
+    margin-right: 0px;
+}
+
+.appmaincontent ul{
+
+    padding-top: 30px;
+}
+
+.appmaincontent ul li{
+
+    list-style: none;
+    padding: 18px 0px;
+    font-size: 21px;
+    color: #767671;
+}
+.appmaincontent ul li:first-child{
+}
+
+.appmaincontent ul li i{
+    
+    color: #e79230;
+    margin-right: 17px;
+    font-size: 24px;
+}
+
+.button1 a{
+    
+    display: inline-block;
+    color: #7d7d7d;
+    background: #ffffff;
+    padding: 17px 28px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 22px;
+    transition: .4s;
+    box-shadow: 0px 0px 7px;
+}
+
+
+.button1 {
+    text-align: center;
+}
+
+
+.hoverclass1:hover .hover11 a{
+    background:#e79230 ;
+    color: white;
+}
+
+.hoverclass1:hover .hover1{
+    background:#e79230 ;
+    color: white;
+}
+
+.hoverclass2:hover .hover22 a{
+    background:#e79230 ;
+    color: white;
+}
+.hoverclass2:hover .hover2{
+    background:#e79230 ;
+    color: white;
+}
+
+.hoverclass3:hover .hover33 a{
+    background:#e79230 ;
+    color: white;
+}
+
+
+
+
+.hoverclass3:hover .hover3{
+    background:#e79230 ;
+    color: white;
+}
+
+
+
+/* our team section */
+
+.ourteamsection{
+
+}
+
+.teammainsection{
+
+}
+
+.ourteamhedding{
+
+    text-align: center;
+}
+
+.ourteamhedding h2{
+
+    font-size: 34px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    padding: 50px 0px;
+}
+
+.ourtammember{
+
+}
+
+.teamitam{
+
+    width: 22%;
+    border-width: 7px;
+    border-style: double;
+    Border-color: #e79230;
+    float: left;
+    margin-left: 24px;
+}
+
+.teamitam img{
+
+}
+
+.teamitam h4{
+
+    font-size: 26px;
+    padding: 10px 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+}
+
+.teamitam p{
+    
+    font-size: 25px;
+    padding: 10px;
+    color: #7a7676;
+}
+
+/* emai section */
+
+.emailsection{
+
+}
+
+.mainemaincontent{
+
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.mainemaincontent p{
+
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 40px;
+}
+
+.mainemaincontent h1{
+
+    font-size: 44px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    padding-bottom: 46px;
+}
+
+.mainemaincontent input{
+
+    padding: 20px 317px 24px 9px;
+    font-size: 20px;
+    border: 2px solid #aa972c;
+    border-radius: 10px;
+}
+
+.mainemaincontent input:hover{
+    box-shadow: 1px 1px 9px;
+   
+}
+
+.buttondiv{
+
+}
+
+.buttondiv a{
+
+    display: inline-block;
+    color: white;
+    background: #aa972c;
+    padding: 20px 79px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 1px solid #aa972c;
+}
+
+.buttondiv a:hover{
+    color: #e79230;
+    background: white;
+}
+
+
+/* choose us */
+
+.choousussection{
+
+}
+
+.mainchous{
+
+}
+
+.chooushedding{
+
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 38px;
+}
+
+.chooushedding h1{
+
+}
+
+.choosemaincontent{
+
+    padding: 40px 20px;
+}
+
+.chooseimg{
+
+    width: 47%;
+    float: left;
+}
+
+.chooseimg img{
+
+}
+
+.choosecontent{
+
+    width: 45%;
+    float: left;
+    padding: 0px 16px;
+}
+
+.choosecontent h2{
+
+    padding: 13px 0px;
+    color: #7d7d7d;
+    font-size: 26px;
+}
+
+.choosecontent p{
+    
+    font-size: 19px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    color: #7d7d7d;
+    padding: 11px 0px;
+    line-height: 28px;
+}
+
+
+/* user about */
+
+.usearabout{
+
+}
+
+.uesarsaymaincontant{
+
+}
+
+.usearhedding{
+
+    text-align: center;
+}
+
+.usearhedding p{
+
+    font-size: 19px;
+    padding: 40px 0px;
+}
+
+.usearhedding h1{
+    
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px 0px 70px 0px;
+}
+
+
+.usercontant{
+
+}
+
+.useritam{
+
+    width: 30%;
+    float: left;
+    border: 2px solid #827b7b;
+    margin-right: 37px;
+}
+.useritam p{
+
+    padding: 36px;
+    font-size: 20px;
+    line-height: 29px;
+    font-family: 'Work Sans', sans-serif;
+    color: #7d7d7d;
+}
+
+
+.usercontentbar {
+    background: #ffffff;
+  }
+
+.userprofile{
+
+    padding: 30px 0px;
+    text-align: center;
+    /*! margin-right: 20px; */
+    background: #f4f4f5;
+}
+
+.userimg{
+
+    float: left;
+    width: 30%;
+    /*! margin-left: 36px; */
+}
+
+.userimg img{
+
+    border: 9px solid #aa972c;
+}
+.nameuser{
+
+    float: left;
+    width: 69%;
+}
+
+.usera{
+    
+}
+
+.nameuser h4{
+
+    display: inline-block;
+    padding: 0px 0px;
+    margin-left: -49px;
+    font-size: 22px;
+    margin-top: 22px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nameuser p{
+
+}
+.usercontent {
+  padding: 30px;
+}
+.nameuser p {
+  padding: 11px;
+  /*! display: inline-block; */
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form section */
+
+
+.contact-secetion{
+    padding: 20px;
+    background: #ffffff;
+}
+.contact h4{
+   font-size: 18px;
+   margin-bottom: 16px;
+   font-weight: 400;
+}
+.contact p{
+    margin-bottom: 46px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777f95;
+}
+.email{
+
+    padding: 9px 6px;
+    padding-right: 289px;
+    border: 1px solid #b8a953;
+    color: #7a7594;
+    border-radius: 7px;
+    margin-bottom: 6px;
+}
+.email:hover{
+    box-shadow: 0px 3px 20px -4px;
+    border: 1px solid #73a69a;
+}
+.name{
+
+    padding: 10px;
+    padding-right: 58px;
+    border-radius: 7px;
+    border: 1px solid #ad9d3b;
+    color: #7e6b7a;
+    margin: 6px;
+    margin-bottom: 13px;
+}
+.name:hover{
+    box-shadow: 0px 3px 20px -4px;
+    border: 1px solid #73a69a;
+}
+.messge{
+    
+    padding: 10px;
+    border: 1px solid #aa972c;
+    color: #757574;
+    border-radius: 5px;
+}
+.messge:hover{
+    box-shadow: 0px 3px 20px -4px;
+    border: 1px solid #73a69a;
+}
+
+.contact a{
+
+    background: #aa972c;
+    padding: 15px 60px;
+    margin-top: 15px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px; 
+    border: 1px solid #aa972c;
+}
+.contact a:hover{
+    background: #fff;
+    color: #aa972c;
+    box-shadow: 0px 3px 30px 0px;
+    border: 1px solid #73a69a;
+}
+.contact span{
+    font-size: 14px;
+    margin-top: 73px;
+    display: inline-block;
+    color: #472636;
+}
